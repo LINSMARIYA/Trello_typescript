@@ -1,0 +1,19 @@
+.list{
+    /* justify-content: space-between; */
+    display: flex;
+   align-items: center;
+
+}
+
+#title{
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+#icon{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

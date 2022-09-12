@@ -1,0 +1,96 @@
+
+.account{
+    /* margin-top: 34px; */
+    display: flex;
+    align-items: center;
+   
+}
+#K{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+#keyvalue{
+
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 6px;
+
+}
+#free{
+    margin-top: 0px;
+    font-size: 12px;
+}
+#right{
+    padding-left: 100px;
+    float: right;
+}
+#hide{
+    padding-top: 15px;
+    margin-top: 50px;
+    width: 20px;
+    background-color:rgba(156, 155, 155, 0.295);
+    opacity: .96;
+    color: white;
+    height: 100vh;
+    margin-right: 0px;
+    position: fixed;
+
+}
+#aside{
+    margin-top: 50px;
+    width: 250px;
+    background-color:rgb(83, 82, 82);
+    opacity: .96;
+    color: white;
+    height: 100vh;
+    margin-right: 0px;
+    position: fixed;
+   
+  }
+hr{
+    border-width: .9px;
+    border-color: rgba(255, 255, 255, 0.288);
+    
+}
+.logo{
+    padding: 15px;
+    color: yellowgreen;
+}
+.items{
+    padding-left: 15px
+}
+#pic{
+    width: 25px;
+}
+#plus{
+    margin-left: 113px;
+    
+}
+#d_arrow{
+    margin-left: 120px;
+}
+#title_icon{
+   margin-left: 120px; 
+
+}
+#topic{
+    margin-top: 0px;
+    font-size: 15px;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+}
+#important{
+   margin-left: 12px;
+}
+#more1{
+    margin-left: 110px;
+}

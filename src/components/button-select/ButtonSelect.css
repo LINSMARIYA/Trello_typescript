@@ -1,0 +1,12 @@
+#white{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: none;
+    border-radius: 5px;
+    /* margin-right: 20px; */
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+   
+
+}

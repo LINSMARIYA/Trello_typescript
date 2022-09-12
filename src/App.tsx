@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/sidebar/Sidebar';
+import TopNav from './components/top-nav/TopNav';
+import MainSection from './components/main-section/MainSection';
+import TopSection from './components/top-section/TopSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <body className="landing">
+    <div>
+    <TopNav/>
+    <div id='content'>
+    <Sidebar/>
+    
+    <MainSection/>
     </div>
+   
+   
+    </div>
+    
+    
+    
+    </body>
   );
 }
 
 export default App;
+
