@@ -73,7 +73,7 @@ const Sidebar = () => {
             <Item
               label="G&T"
               iconName={
-                <img id="pic" src={require("../../images/bg.jpeg")} alt="" />
+                <img id="pic" src="/images/bg.jpeg" alt="" />
               }
               iconName2={<MdMoreHoriz size={15} />}
               id2="more1"
@@ -86,5 +86,5 @@ const Sidebar = () => {
       )}
     </div>
   );
-}
+};
 export default Sidebar;

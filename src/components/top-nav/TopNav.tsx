@@ -8,10 +8,10 @@ import InputField from "../input-field/InputField";
 const TopNav = () => {
   return (
     <div className="navtop">
-      <img id="menu" src={require("../../images/menu.png")} alt="" />
+      <img id="menu" src="images/menu.png" alt="" />
       <img
         id="Trellologo"
-        src={require("../../images/Trello.png")}
+        src='images/Trello.png'
         alt="This is Trello logo"
       />
       <SelectField
@@ -78,7 +78,7 @@ const TopNav = () => {
         <MdNotificationsNone size={15} />
       </div>
       <p id="dp">
-        <img src={require("../../images/bg.jpeg")} />
+        <img src="/images/bg.jpeg" />
       </p>
     </div>
   );

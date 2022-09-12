@@ -1,4 +1,4 @@
-import { DragEvent, useRef } from "react";
+// import { DragEvent, useRef } from "react";
 import "./InputArea.css";
 
 type InputAreaProps = {
